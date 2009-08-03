@@ -64,7 +64,6 @@ function initApp()
 	//*******************	
 	define("APP_PATH",$realpath);
 	define("APP_ROOT", $app_root);
-	echo $app_root;
 	define("APP_CFGFILE", $cfgfile);
 	define("APP_NAME", "校园平台 卡地");
 	//头像文件路径
