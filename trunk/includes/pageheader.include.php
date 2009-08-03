@@ -30,6 +30,7 @@
 	$pagepre = substr(basename($_SERVER['PHP_SELF']),4,$pagepre_len);
 	//修改完
 	$info_current=$pers_current=$cour_current='';
+	
 	switch($prepage)
 	{
 		case "infr":$info_current="class='current'";break;
@@ -42,7 +43,7 @@
 		case "frie":$frie_current="class='current'";break;
 		case "blog":$blog_current="class='current'";break;
 		case "main":$main_current="class='current'";break;
-		case "shop":$shop_current="class='current'";$cssfile = "smallmark.css";break;
+		case "cshp":$shop_current="class='current'";$cssfile = "smallmark.css";break;
        default:$main="class='current'";break;
 	}
 ?>
