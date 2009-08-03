@@ -1,0 +1,57 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url("../images/bg.gif"); PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	FONT-SIZE: 12px
+}
+TD {
+	FONT-SIZE: 12px
+}
+.menu_box_pad {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; BACKGROUND: #fdf9d5; PADDING-BOTTOM: 2px; PADDING-TOP: 0px
+}
+.menu_box {
+	BORDER-RIGHT: #d6d6d6 1px solid; BORDER-TOP: #ababab 1px solid; BORDER-LEFT: #ababab 1px solid; BORDER-BOTTOM: #d6d6d6 1px solid
+}
+.menu_box TH {
+	BACKGROUND:url(../images/menu_list_icon.gif) no-repeat center 50%; WIDTH: 10px; LINE-HEIGHT: 22px
+}
+.menu_box TD {
+	BACKGROUND: url(../images/menu_list_split.gif) no-repeat left bottom; LINE-HEIGHT: 20px
+}
+.menu_box A {
+	COLOR: #00f; TEXT-DECORATION: none
+}
+.menu_box A:hover {
+	TEXT-DECORATION: underline
+}
+.hand {
+	CURSOR: pointer
+}
+.ctrl_menu {
+	BORDER-RIGHT: #767676 1px solid; BACKGROUND: #ffcf60; BORDER-LEFT: #767676 1px solid; BORDER-BOTTOM: #767676 1px solid
+}
+.ctrl_menu_title {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; LINE-HEIGHT: 25px
+}
+.ctrl_menu_title_bg {
+	BACKGROUND: url(../images/menu_title_bg.gif)
+}
+.top_bg {
+	BACKGROUND: url(../images/top_bg.gif)
+}
+.logo_bg {
+	BACKGROUND: url(../images/logo_bg.gif)
+}
+#top_nav_menu {
+	COLOR: #fff
+}
+#top_nav_menu A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#top_nav_menu A:hover {
+	COLOR: #ff6; TEXT-DECORATION: underline
+}
+A {
+	COLOR: #014e82; TEXT-DECORATION: none
+}
