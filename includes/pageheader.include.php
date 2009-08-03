@@ -42,6 +42,7 @@
 		case "frie":$frie_current="class='current'";break;
 		case "blog":$blog_current="class='current'";break;
 		case "main":$main_current="class='current'";break;
+		case "shop":$shop_current="class='current'";$cssfile = "smallmark.css";break;
        default:$main="class='current'";break;
 	}
 ?>
