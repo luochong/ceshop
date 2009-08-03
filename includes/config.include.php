@@ -5,7 +5,7 @@
 
 $hostname   ="localhost";
 $dbusername ="root";
-$dbpassword ="123456";
+$dbpassword ="";
 $dbname		="ceshop";
 
 ?>
