@@ -1,0 +1,196 @@
+@charset "utf-8";
+body{
+	margin:0 0 1px 0;
+}
+
+#left{
+	border-top:#000033 1px solid ;
+	border-left:#000033 1px solid ;
+	border-bottom:#000033 1px solid ;
+	border-right:#000033 1px solid ;
+	margin:10px 1px 0px 1px;	
+}
+#dept{
+	margin:1px 1px 10px 1px;
+	list-style:none;
+	border-bottom:#006E2E 1px dashed ;
+}
+#dept li{
+	margin:0 0 0 10px;
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#037AAF;	
+}
+#dept li a{
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#037AAF;
+	text-decoration:none;	
+}
+#dept li a:hover{	
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#000;	
+	text-decoration:underline;
+}
+#mword{
+	margin:1px 1px 10px 1px;
+	list-style:none;	
+}
+#mword li{
+	margin:0 0 0 10px;
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#037AAF;	
+}
+#mword li a{
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#037AAF;	
+	text-decoration:none;
+}
+#mword li a:hover{
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#000;	
+	text-decoration:underline;
+}
+#deptadd{
+	border-top:#4096EE 1px solid ;
+	border-left:#4096EE 1px solid ;
+	border-bottom:#4096EE 1px solid ;
+	border-right:#4096EE 1px solid ;
+	margin:10px 1px 2px 10px;		
+	width:700px;	
+}
+#deptrelation{
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#000;
+	border-bottom:#C3D9FF 1px dashed ;
+	margin:1px 0px 5px 5px;
+}
+#deptrelationbom{
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#000;
+	position:absolute;
+	margin:0 0 0 0;
+	top:15px;
+	left:650px;
+}
+#deptrelationbom a{
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#037AAF;
+	text-decoration:none;
+}
+#deptrelationbom a:hover{
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#037AAF;
+	text-decoration:underline;
+}
+#deptform{
+	list-style:none;
+	padding-top:5px;
+	padding-left:10px;	
+}
+#deptform li{
+	margin:10px 0 0 10px;
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#000;	
+}
+.dept{
+	font:14/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#000;	
+}
+#deptgl{
+	border-top:#4096EE 1px solid ;
+	border-left:#4096EE 1px solid ;
+	border-bottom:#4096EE 1px solid ;
+	border-right:#4096EE 1px solid ;
+	margin:10px 1px 2px 10px;	
+	width:700px;
+}
+#deptglmenu{	
+	margin:5px 10px 5px 10px;
+}
+.menutable{			
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#000;
+	margin-left:10px;
+}
+.explain{
+	font:12px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#000;
+}
+#deptglcontent{	
+	margin:5px 0 5px 10px;		
+}
+.depttable{
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#000;
+}
+.depttable a{
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#037AAF;
+	text-decoration:none;
+}
+.depttable a:hover{
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#037AAF;
+	text-decoration:underline;
+}
+#page{
+	margin:5px 0 5px 5px;
+	border-top:#C3D9FF 1px dashed ;
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#000;
+}
+#page a{	
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#037AAF;
+	text-decoration:none;
+}
+#page a:hover{	
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#037AAF;
+	text-decoration:underline;
+}
+.txtable{			
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#000;
+	margin:10px 0 10px 0;
+	border-top:#000033 1px dashed ;
+	border-left:#000033 1px dashed ;
+	border-bottom:#000033 1px dashed ;
+	border-right:#000033 1px dashed ;	
+}
+.txtable a{			
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#037AAF;
+	text-decoration:none;
+}
+.txtable a:hover{			
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#037AAF;
+	text-decoration:underline;
+}
+.content{
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#037AAF;
+}
+.reply{
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#008C00;
+}
+.replyc{
+	font:14px/2em Trebuchet MS, Tahoma, sans-serif;
+	color:#006E2E;
+}
+/* µÇÂ¼Ò³Ãæ start*/
+#login{background:#f1f1f1;}
+#login .box{ margin-top:40px;}
+#login .bg{background:url(../images/shouye.gif) no-repeat; height:500px; width:600px; margin:0 auto;padding:0;}
+#login .clear {clear: both; height:300px}
+#login .denglu{
+	margin-top:0px;
+	margin-left:180px;
+	font:12px/1em Arial, Helvetica, sans-serif;
+        color:#7B8AC3;
+}
+#login .input {padding:10px 30px;}
+input.long { background-colo:#f8f8f8; border: 1px solid #D4D0C8; width:160px;}
+input.short { background-color:#f8f8f8; border: 1px solid #D4D0C8; width:100px;}
+/* µÇÂ¼Ò³Ãæ end */
