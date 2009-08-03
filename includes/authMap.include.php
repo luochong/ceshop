@@ -8,7 +8,7 @@ require_once(_INCLUDE_ROOT_DIR__.'/registry.include.php');
 require_once(_INCLUDE_CLASS_DIR__.'/Cache/Lite.php');
 
 $options = array(
-    'cacheDir' =>  _INCLUDE_ROOT_DIR__."/cache/",
+    'cacheDir' =>  _ROOT_DIR__."/tmp/",
     'lifeTime' => 100,//10秒失效时间
     'pearErrorMode' => CACHE_LITE_ERROR_DIE
 );
